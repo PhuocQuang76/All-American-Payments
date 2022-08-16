@@ -1,0 +1,533 @@
+.contact{
+    background-color: var(--overlay);
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin-top: -20px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact:before{
+    content: '';
+    /*background-color: #29455d;*/
+    background:  url("../../../public/images/Section_Form.jpg")  no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.contact .container{
+    /*height: 100%;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    justify-content: center;
+
+    /*max-width: 1100px;*/
+    margin: auto;
+    padding: 1rem;
+}
+.formGroup{
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+
+    /*margin: auto;*/
+    /*padding-top: 10px;*/
+
+}
+.formGroup form {
+    padding-top: 30px;
+    /*width: 500px;*/
+}
+.formGroup input{
+    width: 300px;
+
+}
+.error_text{
+    color: red;
+    font-size: xx-small;
+    padding-top: -4px;
+}
+.last_div input{
+    height: 35px;
+    width: 630px !important;
+    /*margin-left: -5% !important;*/
+    background-color: transparent;
+    /*margin: auto;*/
+    margin-top: 5px;
+    border:none;
+    border-bottom: 1px solid black;
+}
+.form_title{
+    text-align: center;
+}
+.form_title h1{
+    font-family: Antonio;
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 7px;
+    text-align: center;
+
+}
+.form_title h3{
+    margin-bottom: -5px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20pt;
+    color:white;
+}
+.flex_container{
+    display: flex;
+    background-color: transparent;
+    /*max-width: 40%;*/
+    justify-content: center;
+    width: 100%;
+    /*margin: auto;*/
+}
+.flex_container div{
+    justify-content: center;
+}
+/*.flex_container .special_input{*/
+/*    width: 600px;*/
+/*}*/
+
+.flex_container div:not(:last-child){
+    padding-right: 25px !important;
+    padding-bottom: 30px;
+}
+
+.flex_container input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    height: 40px;
+}
+.flex_container input:active{
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    height: 40px;
+}
+
+.flex_container input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black !important;
+    opacity: 1; /* Firefox */
+}
+
+.flex_container input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black !important;
+}
+
+.flex_container input::-ms-input-placeholder { /* Microsoft Edge */
+    color: black !important;
+}
+.last_div input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black !important;
+    opacity: 1; /* Firefox */
+}
+
+.last_div input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black !important;
+}
+
+.last_div input::-ms-input-placeholder { /* Microsoft Edge */
+    color: black !important;
+}
+
+.button_group{
+    margin-top: 80px;
+}
+.button_group  button{
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: large;
+    height: 45px;
+    width: 180px;
+    border: 1px solid black;
+}
+.button_group  button>span{
+    padding-top: 50px;
+    margin-right: 6px;
+}
+.button_group p{
+    font-size: small;
+    color: black;
+}
+.button_group  button:hover{
+    color: tan;
+    background-color: gray;
+    text-decoration: #e2b550;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .contact {
+        background-color: var(--overlay);
+        color: #fff;
+        height: 100vh;
+        /*width: 900px;*/
+        position: relative;
+        margin-top: -20px;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .contact:before {
+        content: '';
+        /*background-image: none;*/
+        background: url("../../../public/images/Section_Form.jpg") no-repeat center center/cover;
+        height: 100%;
+        /*width: 100%;*/
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .contact .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        max-width: 900px;
+        /*margin: auto;*/
+        padding: 1rem;
+        height: 100%;
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        max-width: 900px;
+        margin: auto;
+        padding: 1rem;
+        font-size: small;
+        color: black;
+    }
+
+    .formGroup form {
+        padding-top: 50px;
+        /*width: 500px;*/
+    }
+    .formGroup input{
+        width: 300px;
+
+    }
+    .last_div input{
+        width: 630px !important;
+        margin-left: -40px !important;
+        background-color: transparent;
+        /*margin: auto;*/
+        margin-top: 10px;
+        border:none;
+        border-bottom: 1px solid black;
+    }
+    /*.special_input input {*/
+    /*    !*width: 280px !important;*!*/
+    /*    background-color: transparent;*/
+    /*    !*margin: auto;*!*/
+    /*    !*padding-left: 2%;*!*/
+    /*    border: none;*/
+    /*    border-bottom: 1px solid black;*/
+    /*}*/
+
+    .form_title {
+        text-align: center;
+    }
+
+    .form_title h1 {
+        font-family: Antonio;
+        color: white;
+        font-weight: bold;
+        font-size: 28px;
+        letter-spacing: 7px;
+        text-align: center;
+
+    }
+
+    .form_title h3 {
+        margin-bottom: -5px;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 15px;
+        color: white;
+    }
+
+    .flex_container {
+        display: flex;
+        background-color: transparent;
+        /*max-width: 40%;*/
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .flex_container div{
+        padding-right: 25px !important;
+        padding-bottom: 10px;
+    }
+
+    .flex_container .special_input {
+        /*width: 400px;*/
+    }
+
+    .flex_container div {
+        padding-right: 5% !important;
+        padding-bottom: 10%;
+    }
+
+    .flex_container input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+        color: black;
+        height: 40px;
+    }
+
+    .flex_container input:active {
+        border: none;
+        border-bottom: 1px solid black;
+        color: black;
+        height: 40px;
+    }
+
+    .flex_container input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: black !important;
+        opacity: 1; /* Firefox */
+    }
+
+    .flex_container input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: black !important;
+    }
+
+    .flex_container input::-ms-input-placeholder { /* Microsoft Edge */
+        color: black !important;
+    }
+
+    .special_input input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: black !important;
+    }
+
+    .special_input input::-ms-input-placeholder { /* Microsoft Edge */
+        color: black !important;
+    }
+
+    .button_group {
+        margin-top: 10%;
+    }
+
+    .button_group button {
+        background-color: transparent;
+        border-radius: 8px;
+        font-size: small;
+        height: 35px;
+        width: 150px;
+        border: 1px solid black;
+    }
+
+    /*.button_group  button:hover{*/
+    /*    color: tan;*/
+    /*    background-color: gray;*/
+    /*    text-decoration: #e2b550;*/
+    /*    font-weight: bold;*/
+    /*    font-style: italic;*/
+    /*}*/
+    .button_group button > span {
+        padding-top: 3px;
+        margin-right: 6px;
+    }
+
+    .button_group p {
+        font-size: small;
+        color: black;
+    }
+
+    .button_group p:hover {
+        color: tan;
+        background-color: gray;
+        text-decoration: #e2b550;
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contact{
+        /*background-color: var(--overlay);*/
+        color: #fff;
+        /*height: 100vh;*/
+        /*width: 800px;*/
+        position: relative;
+        margin-top: -30px;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .contact:before{
+        /*content: '';*/
+        /*background-image: none;*/
+        background:  url("../../../public/images/Section_Form.jpg")  no-repeat center center/cover;
+        /*background-size: auto;*/
+        /*height: 100%;*/
+        /*width: 800px;*/
+        position: absolute;
+        /*top: 0;*/
+        /*left: 0;*/
+        z-index: -1;
+    }
+    .contact .container{
+        /*height: 100%;*/
+        /*!*display: flex;*!*/
+        /*!*flex-direction: column;*!*/
+        /*!*justify-content: center;*!*/
+
+        /*max-width: 800px;*/
+        /*!*margin: auto;*!*/
+        /*padding: 1rem;*/height: 100%;
+        /*display: flex !important;*/
+        display: block !important;
+        /*flex-direction: row;*/
+        justify-content: center;
+        text-align: center;
+        max-width: 800px;
+        margin: auto;
+        padding: 1rem;
+        font-size: small;
+        color: black;
+    }
+    .formGroup form {
+        padding-top: 10px;
+        /*width: 500px;*/
+    }
+    .formGroup input{
+        width: 300px;
+        padding-bottom: -30px !important;
+    }
+    .last_div input{
+        width: 300px !important;
+        margin-left: -20px !important;
+        background-color: transparent;
+        /*margin: auto;*/
+        padding-top: -70px !important;
+        margin-top: -70px !important;
+        border:none;
+        border-bottom: 1px solid black;
+
+    }
+    .form_title{
+        text-align: center;
+    }
+    .form_title h1{
+        font-family: Antonio;
+        color:white;
+        font-weight: bold;
+        font-size: 20px !important;
+        letter-spacing: 7px;
+        text-align: center;
+        padding-left: 2px!important;
+        margin-bottom: -5px !important;
+
+    }
+    .form_title h3{
+
+        margin-bottom: -5px;
+        text-align: center;
+        font-family: Antonio;
+        font-size: 10px !important;
+        color:white;
+    }
+    .flex_container{
+        display: inline-block !important;
+        background-color: transparent;
+        /*max-width: 40%;*/
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .flex_container input{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+        color: black;
+
+
+
+    }
+    .flex_container input:active{
+        border: none;
+        border-bottom: 1px solid black;
+        color: black;
+        height: 20px !important;
+    }
+
+    .flex_container input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: black !important;
+        opacity: 1; /* Firefox */
+    }
+
+    .flex_container input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: black !important;
+    }
+
+    .flex_container input::-ms-input-placeholder { /* Microsoft Edge */
+        color: black !important;
+    }
+    .special_input input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: black !important;
+    }
+
+    .special_input input::-ms-input-placeholder { /* Microsoft Edge */
+        color: black !important;
+    }
+
+    .button_group{
+        margin-top: 5px;
+    }
+    .button_group  button{
+        background-color: transparent;
+        border-radius: 8px;
+        font-size: small;
+        height: 35px;
+        width: 150px;
+        border: 1px solid black;
+    }
+
+    /*.button_group  button:hover{*/
+    /*    color: tan;*/
+    /*    background-color: gray;*/
+    /*    text-decoration: #e2b550;*/
+    /*    font-weight: bold;*/
+    /*    font-style: italic;*/
+    /*}*/
+    .button_group  button>span{
+        padding-top: 3px;
+        margin-right: 6px;
+    }
+    .button_group p{
+        font-size: xx-small;
+        color: black;
+    }
+
+    .button_group p:hover{
+        color: tan;
+        background-color: gray;
+        text-decoration: #e2b550;
+        font-weight: bold;
+        font-style: italic;
+    }
+}

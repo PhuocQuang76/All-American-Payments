@@ -1,0 +1,301 @@
+.merchant{
+    /*background-color: var(--overlay);*/
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.merchant:before{
+    content: '';
+    /*background-color: #56364a;*/
+    /*background-size: auto;*/
+    background:  url("../../../public/images/Section_Merchant.jpg")  no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.merchant .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    /*margin: auto;*/
+    padding: 1rem;
+
+
+}
+
+.container{
+    padding-top: 150px !important;
+}
+
+.content{
+    background-image: url("../../../public/images/Section_Merchant.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+    margin-top: -20px;
+}
+.content_header{
+
+}
+.content_header h1{
+    color: white;
+    font-family: Antonio;
+    font-weight: bold;
+    font-size: 150px;
+    letter-spacing: -10px;
+    margin-top: -10px;
+    padding-left: 20%;
+}
+.content_header h3{
+    color: white;
+    font-family: Antonio;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 11px;
+    margin-top: -120px;
+    padding-left: 20%;
+}
+.content_group{
+    display: inline;
+
+}
+.content_detail{
+    color: white;
+    padding-left: 20%;
+}
+
+.content_detail div{
+    display: inline-block;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: Roboto;
+    color:white;
+    font-size: 20px
+}
+.content_button{
+    font-family: Roboto;
+    color: white;
+    font-size:24px;
+    width: 20%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    text-align: center;
+    margin-left: 20%;
+}
+.content_button:hover {
+    color: tan;
+    background-color: gray;
+    text-decoration: #e2b550;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+    .merchant{
+        /*background-color: var(--overlay);*/
+        color: #fff;
+        /*height: 100vh;*/
+        /*width: 800px;*/
+        position: relative;
+    }
+
+    .merchant:before{
+        /*content: '';*/
+        /*background-image: none;*/
+        background:  url("../../../public/images/Section_Merchant.jpg")  no-repeat center center/cover;
+        /*background-size: auto;*/
+        /*height: 100%;*/
+        /*width: 100%;*/
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .merchant .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 800px;
+        /*margin: auto;*/
+        padding: 1rem;
+
+
+    }
+
+    .container{
+        padding-top: 150px !important;
+    }
+
+    /*.content{*/
+    /*    background-image: url("../../../public/images/Section_Merchant.jpg");*/
+    /*    background-repeat: no-repeat;*/
+    /*    height: 100vh;*/
+    /*    background-size: 100%;*/
+    /*    margin-top: -20px;*/
+    /*}*/
+    .content_header{
+
+    }
+    .content_header h1{
+        color: white;
+        font-family: Antonio;
+        font-weight: bold;
+        font-size: 70px;
+        letter-spacing: 0px;
+        margin-top: -10px;
+        padding-left: 10%;
+    }
+    .content_header h3{
+        color: white;
+        font-family: Antonio;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-top: -40px;
+        padding-left: 10%;
+    }
+    .content_group{
+        display: inline;
+
+    }
+    .content_detail{
+        color: white;
+        padding-left: 10%;
+    }
+
+    .content_detail div{
+        display: inline-block;
+        padding-right: 5%;
+        font-weight: bold;
+        font-family: Roboto;
+        color:white;
+        font-size: 15px
+    }
+    .content_button{
+        font-family: Roboto;
+        color: white;
+        font-size:15px !important;
+        width: 40% !important;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 2px;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .content_button:hover {
+        color: tan;
+        background-color: gray;
+        text-decoration: #e2b550;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .merchant{
+        background-color: var(--overlay);
+        color: #fff;
+        height: 100vh;
+        /*width: 900px;*/
+        position: relative;
+    }
+
+    .merchant:before{
+        content: '';
+        /*background-image: none;*/
+        background:  url("../../../public/images/Section_Merchant.jpg")  no-repeat center center/cover;
+        height: 100%;
+        /*width: 100%;*/
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .merchant .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 900px;
+        /*margin: auto;*/
+        padding: 1rem;
+
+
+    }
+
+    .container{
+        padding-top: 150px !important;
+    }
+
+    .content{
+        /*background-image: url("../../../public/images/Section_Merchant.jpg");*/
+        background-repeat: no-repeat;
+        height: 100vh;
+        /*background-size: 100%;*/
+        margin-top: -20px;
+    }
+    .content_header{
+
+    }
+    .content_header h1{
+        color: white;
+        font-family: Antonio;
+        font-weight: bold;
+        font-size: 70px;
+        letter-spacing: 0px;
+        margin-top: -10px;
+        padding-left: 10%;
+    }
+    .content_header h3{
+        color: white;
+        font-family: Antonio;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-top: -40px;
+        padding-left: 10%;
+    }
+    .content_group{
+        display: inline;
+
+    }
+    .content_detail{
+        color: white;
+        padding-left: 10%;
+    }
+
+    .content_detail div{
+        display: inline-block;
+        padding-right: 5%;
+        font-weight: bold;
+        font-family: Roboto;
+        color:white;
+        font-size: 15px
+    }
+    .content_button{
+        font-family: Roboto;
+        color: white;
+        font-size:18px;
+        width: 30%;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 2px;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .content_button:hover {
+        color: tan;
+        background-color: gray;
+        text-decoration: #e2b550;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+}
